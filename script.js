@@ -37,15 +37,15 @@
   ];
   const AUDIO_TYPES = { '.mp3': 'audio/mpeg', '.wav': 'audio/wav', '.ogg': 'audio/ogg', '.mp4': 'audio/mp4' };
   const MUSIC_TRACKS = [
-    { title: 'Download - 2026-11-13T115037.544', src: '../music/Download - 2026-11-13T115037.544.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'Download - 2026-11-13T115107.067', src: '../music/Download - 2026-11-13T115107.067.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'Download - 2026-11-13T115226.291', src: '../music/Download - 2026-11-13T115226.291.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'Download - 2026-11-13T115314.152', src: '../music/Download - 2026-11-13T115314.152.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'Download - 2026-11-13T115343.312', src: '../music/Download - 2026-11-13T115343.312.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'hanggang dito nalang', src: '../music/hanggang dito nalang.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'kung ayaw', src: '../music/kung ayaw.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'totoong tayo', src: '../music/totoong tayo.mp4', type: AUDIO_TYPES['.mp4'] },
-    { title: 'wiimyftroml', src: '../music/wiimyftroml.mp4', type: AUDIO_TYPES['.mp4'] }
+    { title: 'Download - 2026-11-13T115037.544', src: 'music/Download - 2026-11-13T115037.544.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'Download - 2026-11-13T115107.067', src: 'music/Download - 2026-11-13T115107.067.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'Download - 2026-11-13T115226.291', src: 'music/Download - 2026-11-13T115226.291.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'Download - 2026-11-13T115314.152', src: 'music/Download - 2026-11-13T115314.152.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'Download - 2026-11-13T115343.312', src: 'music/Download - 2026-11-13T115343.312.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'hanggang dito nalang', src: 'music/hanggang dito nalang.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'kung ayaw', src: 'music/kung ayaw.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'totoong tayo', src: 'music/totoong tayo.mp4', type: AUDIO_TYPES['.mp4'] },
+    { title: 'wiimyftroml', src: 'music/wiimyftroml.mp4', type: AUDIO_TYPES['.mp4'] }
   ];
   const COLORS = {
     day: { sky: '#fff8e7', far: '#f4e4c9', near: '#eed9b6', ground: '#a67c52', detail: '#d6b68d', ink: '#526e4f', cactus: '#557b4f', bird: '#b66c46', cloud: '#fffdf7' },

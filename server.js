@@ -29,12 +29,6 @@ const server = http.createServer((request, response) => {
     return;
   }
 
-  if (pathname === '/') {
-    response.writeHead(302, { Location: '/offline-dino/' });
-    response.end();
-    return;
-  }
-
   const relativePath = pathname.replace(/^\/+/, '');
   const filePath = path.resolve(projectRoot, relativePath);
   if (filePath !== projectRoot && !filePath.startsWith(projectRoot + path.sep)) {
@@ -73,7 +67,7 @@ server.on('error', error => {
 });
 server.on('listening', () => {
   const address = server.address();
-  console.log(`Offline Dino Runner is ready at http://${host}:${address.port}/offline-dino/`);
+  console.log(`DINO PA BA? is ready at http://${host}:${address.port}/`);
   if (address.port !== port) console.log(`Port ${port} was already in use; using ${address.port} instead.`);
   console.log('Press Ctrl+C to stop the server.');
 });
